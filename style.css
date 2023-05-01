@@ -79,6 +79,7 @@ p {
 
 .h2 {
     font-size: 2rem;
+    color: rgb(51, 51, 51);
 }
 
 .h3 {
@@ -106,6 +107,10 @@ p {
 
 .link-p {
     font-size: 1.3rem;
+}
+
+.link-p:hover {
+    color: rgb(48, 149, 242);
 }
 
 .p1 {
@@ -164,6 +169,11 @@ ul {
     border-radius: 5px;
 }
 
+#contact-button:hover {
+    background-color: #2273bd;
+    color: white;
+}
+
 #section-div-1 {
     padding-top: 6rem;
 }
@@ -203,15 +213,45 @@ ul {
     margin-top: 1rem;
 }
 
+#section-div-3 {
+    padding-top: 5rem;
+}
+
+#section-3-text-div {
+    max-width: 50rem;
+}
+
+#section-3-text-div h2{
+    margin-top: 1rem;
+}
+
+#product-div-container {
+    margin-top: 3rem;
+}
+
 .product-div {
     gap: 4rem;
 }
 
+#product-1-div, #product-2-div, #product-3-div, #product-4-div {
+    width: 100%;
+}
+
+#product-1-div {
+    margin-top: 5rem;
+}
+
+#product-3-div {
+    margin-top: 15rem;
+}
+
+#product-4-div {
+    margin-top: 10rem;
+}
+
 .products-card {
-    width: 40%;
     padding: 1.75rem 2.25rem 0;
     border-radius: 4px;
-    flex-grow: 1;
 }
 
 .products-card img {
@@ -236,8 +276,35 @@ ul {
     background: rgb(54, 48, 87);
 }
 
+#section-div-4 {
+    padding: 5rem 0;
+}
+
+#section-4-text-div {
+    max-width: 35rem;
+}
+
+#section-4-text-div h2{
+    margin-top: 1rem;
+}
+
+#launch-div {
+    padding-top: 6rem;
+}
+
+#translate-div-1 {
+    translate: -4rem;
+    gap: 3rem;
+}
+
+#translate-div-2 {
+    translate: 5rem;
+    gap: 3rem;
+}
+
 .card-2 {
     text-align: center;
+    max-width: 25rem;
 }
 
 #line-div {
@@ -245,10 +312,14 @@ ul {
 }
 
 #line-div img {
-    width: 85%;
+    width: 90%;
     position: relative;
     left: 50%;
     translate: -50%;
+}
+
+#section-div-5 {
+    padding: 5rem 0;
 }
 
 #half {
@@ -260,7 +331,6 @@ ul {
 }
 
 #achieve-flex {
-    /* gap: 1rem; */
     justify-content: space-between;
 }
 
@@ -292,10 +362,29 @@ ul {
     padding: 1.5rem 1.5rem;
 }
 
+#section-div-6 {
+    padding: 5rem 0;
+}
+
+#section-6-text-div h2{
+    margin-top: 1rem;
+}
+
 #blogs-div {
     gap: 1.5rem;
+    margin-top: 3rem;
 }
 
 .blog-card img {
     width: 100%;
+    margin-bottom: 1rem;
+}
+
+.blog-card .p2 {
+    padding: 0.2rem 0.5rem;
+    font-weight: 500;
+}
+
+.blog-card h4 {
+    margin-top: 1rem;
 }
