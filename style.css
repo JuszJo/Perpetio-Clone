@@ -389,8 +389,11 @@ ul {
     margin-top: 1rem;
 }
 
-#footer-div {
+footer section {
     padding: 5rem 0;
+}
+
+#footer-div {
     gap: 5rem;
 }
 
@@ -419,4 +422,8 @@ ul {
 
 footer li {
     margin-top: 1.5rem;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
